@@ -1,0 +1,50 @@
+<layout width="100.000000" height="480.000000">
+
+	<label>
+		<id>5</id>
+		<x>76.19</x>
+		<y>431.37</y>
+		<anchorPtX>0.00</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<text>0</text>
+	</label>
+	<label>
+		<id>6</id>
+		<x>75.76</x>
+		<y>387.06</y>
+		<anchorPtX>0.00</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<text>0</text>
+	</label>
+
+	<image>
+		<id>12</id>
+		<x>51.07</x>
+		<y>461.98</y>
+		<anchorPtX>0.50</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>0.80</scale>
+		<path>game_scene/stadesc1.png</path>
+	</image>
+	<label>
+		<id>13</id>
+		<x>39.25</x>
+		<y>431.59</y>
+		<anchorPtX>0.50</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>0.65</scale>
+		<text>食物数量</text>
+	</label>
+	<label>
+		<id>14</id>
+		<x>39.25</x>
+		<y>387.48</y>
+		<anchorPtX>0.50</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>0.65</scale>
+		<text>怪物数量</text>
+	</label>
+</layout>
+

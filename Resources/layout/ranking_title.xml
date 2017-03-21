@@ -1,0 +1,21 @@
+<layout width="250.000000" height="30.000000">
+	<label>
+		<id>1</id>
+		<x>45.52</x>
+		<y>16.14</y>
+		<anchorPtX>0.00</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<text>昵称</text>
+	</label>
+	<label>
+		<id>2</id>
+		<x>171.42</x>
+		<y>15.93</y>
+		<anchorPtX>0.00</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<text>得分</text>
+	</label>
+</layout>
+

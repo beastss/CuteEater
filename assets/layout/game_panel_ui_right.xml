@@ -1,0 +1,31 @@
+<layout width="200.000000" height="480.000000">
+	<image>
+		<id>1</id>
+		<x>111.01</x>
+		<y>106.79</y>
+		<anchorPtX>0.50</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<path>game_scene/speed_up.png</path>
+	</image>
+	<emptyBox>
+		<id>8</id>
+		<x>0.20</x>
+		<y>261.71</y>
+		<anchorPtX>0.00</anchorPtX>
+		<anchorPtY>0.00</anchorPtY>
+		<scale>1.00</scale>
+	</emptyBox>
+	<button>
+		<id>10</id>
+		<x>111.64</x>
+		<y>198.81</y>
+		<anchorPtX>0.50</anchorPtX>
+		<anchorPtY>0.50</anchorPtY>
+		<scale>1.00</scale>
+		<normal>help/back.png</normal>
+		<selected>help/back.png</selected>
+		<disabled>help/back.png</disabled>
+	</button>
+</layout>
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<billing>
+<item name="复活" desc="复活" canRepeatedBuy="1" cost="1000" code="001"/>
+<item name="好礼相送" desc="10个无敌药水,10个成长药水" canRepeatedBuy="1" cost="1000" code="002"/>
+<item name="一个皮肤" desc="一个皮肤" canRepeatedBuy="1" cost="1000" code="003"/>
+</billing>
+
+
+
+
+
+
+

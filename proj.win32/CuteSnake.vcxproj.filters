@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{414ae52c-7e35-4ac5-9615-16287f9be1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{86521238-8ddc-4797-bd07-5a5db2c2efbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3571ff4b-a04f-4ab2-8731-dec565585e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="snake">
+      <UniqueIdentifier>{996dd8c8-2eaa-4567-b317-100222332b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\rapaidxml">
+      <UniqueIdentifier>{176cf16d-cfa6-40f5-8792-340e7a309979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\action">
+      <UniqueIdentifier>{98fac2b1-5283-4e3b-886d-95ac247bcda0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{787a6ae0-e34f-4b76-aa66-667c4a14ed83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\ui">
+      <UniqueIdentifier>{332c5609-3169-4d10-8f45-9b8f84cacfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk_iter">
+      <UniqueIdentifier>{93f9b2e7-52bd-4322-b171-5c3d3098caaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CommonUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoyStick.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiLayer.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestScene.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameConfig.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Snake.cpp">
+      <Filter>snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemySnake.cpp">
+      <Filter>snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerSnake.cpp">
+      <Filter>snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnakeController.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCFunctionAction.cpp">
+      <Filter>util\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Action.cpp">
+      <Filter>util\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionRunner.cpp">
+      <Filter>util\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KeyPadWatcher.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EmptyBox.cpp">
+      <Filter>util\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScaleDialog.cpp">
+      <Filter>util\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UiLayout.cpp">
+      <Filter>util\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BasePanel.cpp">
+      <Filter>util\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePanel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuPanel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PackageDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RankingPanel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataLoader.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnakeColor.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Food.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FoodMgr.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpPanel.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SettingDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundMgr.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SavingHelper.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PropsMgr.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerData.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RebornDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyPurchase.cpp">
+      <Filter>sdk_iter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AndroidIter.cpp">
+      <Filter>sdk_iter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RankingModel.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnakeSkinRes.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TimeConsume.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StageMgr.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ghost.cpp">
+      <Filter>snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NextStageDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MatchSysLayer.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RankingDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ListSlideView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ListView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RuleDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ComplaintDialog.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CCCircleBy.cpp">
+      <Filter>util\action</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoyStick.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiLayer.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestScene.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConfig.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Snake.h">
+      <Filter>snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemySnake.h">
+      <Filter>snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonMacro.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidxml\rapidxml.hpp">
+      <Filter>util\rapaidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidxml\rapidxml_iterators.hpp">
+      <Filter>util\rapaidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidxml\rapidxml_print.hpp">
+      <Filter>util\rapaidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\rapidxml\rapidxml_utils.hpp">
+      <Filter>util\rapaidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerSnake.h">
+      <Filter>snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeController.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionRunner.h">
+      <Filter>util\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCFunctionAction.h">
+      <Filter>util\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Action.h">
+      <Filter>util\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyPadWatcher.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UiLayout.h">
+      <Filter>util\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EmptyBox.h">
+      <Filter>util\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScaleDialog.h">
+      <Filter>util\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BasePanel.h">
+      <Filter>util\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePanel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuPanel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PackageDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RankingPanel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeColor.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Food.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FoodMgr.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpPanel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundMgr.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SavingHelper.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PropsMgr.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerData.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RebornDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyPurchase.h">
+      <Filter>sdk_iter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AndroidIter.h">
+      <Filter>sdk_iter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RankingModel.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeSkinRes.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TimeConsume.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StageMgr.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ghost.h">
+      <Filter>snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NextStageDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MatchSysLayer.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RankingDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ListSlideView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ListView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RuleDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ComplaintDialog.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CCCircleBy.h">
+      <Filter>util\action</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
